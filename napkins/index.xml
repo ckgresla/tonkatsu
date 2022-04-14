@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Napkins on Chris Kerwell Gresla</title>
+    <link>https://ckgresla.github.io/napkins/</link>
+    <description>Recent content in Napkins on Chris Kerwell Gresla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ckgresla.github.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is a Napkin?</title>
+      <link>https://ckgresla.github.io/napkins/examples/</link>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ckgresla.github.io/napkins/examples/</guid>
+      <description>Akin to the &amp;ldquo;Ponderings&amp;rdquo; page, this collection of &amp;ldquo;Napkins&amp;rdquo; is a collection of ideas that I felt were better expressed in a series of paragraphs as opposed to a question.
+Some of the world&amp;rsquo;s best ideas were incarnated on a napkin, these might be a few of mine.
+​
+The rest of this page will be a collection of examples for different features supported in the variant of markdown powering this website &amp;ndash; pretty stuff.</description>
+    </item>
+    
+  </channel>
+</rss>
