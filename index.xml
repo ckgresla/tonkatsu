@@ -6,19 +6,16 @@
     <description>Recent content on Chris Kerwell Gresla</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 08 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ckgresla.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ckgresla.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>An Evolution of Office Attire</title>
-      <link>https://ckgresla.github.io/napkins/officeattireevolution/</link>
-      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      <title>Autoencoders are Thought Translation Machines</title>
+      <link>https://ckgresla.github.io/napkins/autoencodersthink/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ckgresla.github.io/napkins/officeattireevolution/</guid>
+      <guid>https://ckgresla.github.io/napkins/autoencodersthink/</guid>
       <description>​
-A case for why you should wear a turtleneck, or at least consciously decide on how you wish to present yourself.
-In Summary;
- An Integration of Form and Function Casual Elegance The Notion of a Uniform It&amp;rsquo;s Showtime  Aesthetics are kind of important, the way your experience in life is embodied is dictated by the ways in which yo
-​
-Images This is what a turtleneck looks like Gydw1n</description>
+Learning is about running through data and developing a compressed representation of what you have seen in order to transform experience into knowledge that is useful in the future. If we attempt to learn things that are mundanely literal it kinda ends up being not fun — but having fun whilst learning might be the thing you exactly want to do. (see articles 1 &amp;amp; 2)
+The Godfather of Artificial Intelligence, Geoffrey Hinton is infamous for his colorful intuitions that describe phenomena in ways that just freaking click.</description>
     </item>
     
     <item>
@@ -39,7 +36,7 @@ The rest of this page will be a collection of examples for different features su
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ckgresla.github.io/about/</guid>
-      <description>My name is Chris Kerwell Gresla &amp;ndash; I am passionate about a variety of things including but not limited to: Artificial Intelligence, Technology, Music (Jazz in particular), Bodybuilding, Food, History, Culture &amp;amp; Philosophy.
+      <description>My name is Chris Kerwell Gresla &amp;ndash; I am a self proclaimed idiot and am passionate about a variety of things including but not limited to: Artificial Intelligence, Technology, Music (Jazz in particular), Bodybuilding, Food, History, Culture &amp;amp; Philosophy.
 For an overview of my professional experience, check out my LinkedIn
 ​
 Raison d&amp;rsquo;être Life is more fun if you add meaning to it, so here are a few bullet points from the current iteration of my Raison d&amp;rsquo;être.</description>
