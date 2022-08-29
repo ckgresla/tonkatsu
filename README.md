@@ -2,5 +2,5 @@
 
 I used to be at: https://ckgresla.github.io 
 
-Now I am at: https://tonaktsu.io
+Now I am at: https://tonkatsu.io/
 
