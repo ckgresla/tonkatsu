@@ -1,4 +1,6 @@
-# ckgresla.github.io
+# Internet Land Ownership
 
-Check it out: https://ckgresla.github.io 
+I used to be at: https://ckgresla.github.io 
+
+Now I am at: https://tonaktsu.io
 
