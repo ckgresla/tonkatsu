@@ -6,7 +6,19 @@
     <description>Recent content in Napkins on Chris Kerwell Gresla</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Factor Analysis</title>
+      <link>https://tonkatsu.io/napkins/factoranalysis/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/factoranalysis/</guid>
+      <description>​
+Simply Put Factor Analysis refers to statistical methods that reduce Variables in a Dataset to a smaller number of Factors, through Linear Combinations of Correlated Variables or with other dimensionality reduction techniques. It sees most of its use in traditional Statistics.
+There are a few types of Factor Analysis methods:
+Exploratory Factor Analysis (EFA): make no a priori assumptions about what Variables will decompose into what factors (let the data tell you what combinations of Variables will make good Factors) reduce the number of input features Confirmatory Factor Analysis (CFA): looks to test a hypothesis on Actual Variables (assuming that some combination of Variables X &amp;amp; B decompose nicely into Factor x̄) Principal Factor Analysis (PFA): aims to get the lowest number of Factors that adequately (user needs to define what adequate is) describes the Variables, this is what most jump to (in ML) when thinking about FA at large.</description>
+    </item>
+    
     <item>
       <title>Production Vs. Research</title>
       <link>https://tonkatsu.io/napkins/productionvsrnd/</link>
