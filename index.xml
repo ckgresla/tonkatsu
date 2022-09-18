@@ -26,7 +26,7 @@ Exploratory Factor Analysis (EFA): make no a priori assumptions about what Varia
       
       <guid>https://tonkatsu.io/napkins/productionvsrnd/</guid>
       <description>​
-Businesses seem to cautiously separate their internal functions into 2 distinct categories. The first grouping contains things that will affect the bottom line in 5 minutes, 2 weeks, 3 months or up to 5 years, a more clearly defined temporal window then the timeframe our second group enjoys, this grouping focuses on moonshoty projects that may or may not change the entire trajectory of the Business and perhaps the world at large.</description>
+Canonically, Businesses seem to separate their internal functions product functions into 2 distinct categories. The first grouping contains things that will affect the bottom line in 5 minutes, 2 weeks, 3 months or up to 5 years, a clearly defined temporal window.The second group is one that focuses on moonshot-y projects that may or may not change the trajectory of the Business, their industry or perhaps the world at large.</description>
     </item>
     
     <item>
@@ -47,31 +47,35 @@ If specificity in specifications or a keyboard enthusiast-esque review is more y
       <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://tonkatsu.io/napkins/personalaesthetics/</guid>
-      <description>​
-Trends or Fashions can be defined as waves of popularity wrt. clothing, thoughts and ways of living. At any given time the thing that is &amp;ldquo;in&amp;rdquo; is the thing that, let&amp;rsquo;s say, the &amp;ldquo;cool kids&amp;rdquo; are doing &amp;ndash; be it bell-bottom jeans, skinny jeans, eating the rich, etc. The changes in these Fashions reflect popular culture and the generally accepted principles for which people operate within &amp;ndash; holes in shirts = drip, if you live in 2016.</description>
+      <description>​ Trends and Fashions are effectively tides of widespread popularity in the way we dress but also, perhaps more importantly, in the thoughts we express and hold. At any given time the thing that is &amp;ldquo;in&amp;rdquo; is the thing that, let&amp;rsquo;s say, the &amp;ldquo;cool kids&amp;rdquo; are doing &amp;ndash; be it bell-bottom jeans, skinny jeans, eating the rich, or what have you. The changes in these Fashion Trends reflect popular culture in that they are the generally accepted principles for which a majority of people operate within &amp;ndash; holes in shirts = drip (if you live in 2016).</description>
     </item>
     
     <item>
-      <title>Autoencoders are Thought Translation Machines</title>
+      <title>Autoencoders are Thought Machines</title>
       <link>https://tonkatsu.io/napkins/autoencodersthink/</link>
       <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://tonkatsu.io/napkins/autoencodersthink/</guid>
       <description>​
-Learning is about running through data and developing a compressed representation of what you have seen in order to transform experience into knowledge that is useful in the future. If we attempt to learn things that are mundanely literal it kinda ends up being not fun — but having fun whilst learning might be the thing you exactly want to do. (see articles 1 &amp;amp; 2)
-The Godfather of Artificial Intelligence, Geoffrey Hinton is infamous for his colorful intuitions that describe phenomena in ways that just freaking click.</description>
+Intelligence might be thought of as the ability to compress information. Learning then is being able to find useful compressions of larger concepts that can be queried or accessed in an efficent way. What learning about something feels like is a sort of grinding proccess of trying to find a representation of the concept that works for the way our Brain is wired and for the reason which we are attempting to understand this concept.</description>
     </item>
     
     <item>
-      <title>What is a Napkin?</title>
+      <title>Markdown Examples</title>
       <link>https://tonkatsu.io/napkins/examples/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://tonkatsu.io/napkins/examples/</guid>
-      <description>Akin to the &amp;ldquo;Ponderings&amp;rdquo; page, this collection of &amp;ldquo;Napkins&amp;rdquo; is a collection of ideas that I felt were better expressed in a series of paragraphs as opposed to a question.
-Some of the world&amp;rsquo;s best ideas were incarnated on a napkin, these might be a few of mine.
+      <description>Some of the world&amp;rsquo;s best ideas were incarnated on a napkin, here are a few digitized ones. This page is just a quick reference to see how what is supported in Hugo&amp;rsquo;s flavour of Markdown and the according syntax.
 ​
-The rest of this page will be a collection of examples for different features supported in the variant of markdown powering this website &amp;ndash; pretty stuff.</description>
+Cool Characters emojis are for TikTok-ers, unicode for gigachads
+♥
+ϟ
+∞
+​
+Images Here is a wallpaper created by Gydw1n that I adore:
+​
+Code Block Being able to include code is nice, JetBrains Mono NL is the best Monospace Font, btw.</description>
     </item>
     
     <item>
