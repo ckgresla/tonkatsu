@@ -6,7 +6,17 @@
     <description>Recent content in Napkins on Chris Kerwell Gresla</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Voluntary Suffering is Worth it</title>
+      <link>https://tonkatsu.io/napkins/suffervoluntarily/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/suffervoluntarily/</guid>
+      <description>​
+Context I have spent the last few weeks immersing myself in the Policy Optimization Literature, within the larger field of Reinforcement Learning. This branch of Machine Learning has always been my &amp;ldquo;fancy&amp;rdquo;, of the main fields in ML, RL is the most &amp;ldquo;gangster&amp;rdquo;. This affinity for the field of figuring out how to create Agents that can learn things more closely to the way that humans learn is what has prompted me to wake up a little extra early each day; diving into papers and programming before the hitting the gym and before the main work day.</description>
+    </item>
+    
     <item>
       <title>Factor Analysis</title>
       <link>https://tonkatsu.io/napkins/factoranalysis/</link>
