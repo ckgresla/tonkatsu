@@ -6,7 +6,17 @@
     <description>Recent content in Napkins on Chris Kerwell Gresla</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Difference between ML and AI</title>
+      <link>https://tonkatsu.io/napkins/diff-ml-ai/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/diff-ml-ai/</guid>
+      <description>​
+Throughout my travels in Cyberspace; journeying across countless github repos, enduring several senseless Zoom meetings, delving into the depths of many package docs and interacting with Technical &amp;amp; Non-Technical folk alike, I have always wondered where the generally acceptable line between Machine Learning (ML) and Artificial Intelligence (AI) is to be drawn. It is a Friday Evening, I will be eating Ramen and will draw a somewhat arbitrary line in order to make what I believe is a meaningful (albeit nitpicky) distinction.</description>
+    </item>
+    
     <item>
       <title>Why Voluntary Suffering is Worth it</title>
       <link>https://tonkatsu.io/napkins/suffervoluntarily/</link>

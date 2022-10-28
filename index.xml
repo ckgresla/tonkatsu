@@ -6,7 +6,17 @@
     <description>Recent content on Chris Kerwell Gresla</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tonkatsu.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tonkatsu.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Difference between ML and AI</title>
+      <link>https://tonkatsu.io/napkins/diff-ml-ai/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/diff-ml-ai/</guid>
+      <description>​
+Throughout my travels in Cyberspace; journeying across countless github repos, enduring several senseless Zoom meetings, delving into the depths of many package docs and interacting with Technical &amp;amp; Non-Technical folk alike, I have always wondered where the generally acceptable line between Machine Learning (ML) and Artificial Intelligence (AI) is to be drawn. It is a Friday Evening, I will be eating Ramen and will draw a somewhat arbitrary line in order to make what I believe is a meaningful (albeit nitpicky) distinction.</description>
+    </item>
+    
     <item>
       <title>Why Voluntary Suffering is Worth it</title>
       <link>https://tonkatsu.io/napkins/suffervoluntarily/</link>
@@ -110,18 +120,6 @@ Raison d&amp;rsquo;être It is not obvious that life has any inherrent meaning &
       <description>I wager that when You kick the bucket, you will not be wishing you thought less critically in your life &amp;ndash; hopefully you can critically consider a few of the following and make this ride a bit more fun:
 ​
 How far could humanity get naming astrophysical systems/bodies with cool names like Jupiter, Andromeda, Mars, the Jovian System, Alpha Centauri, Oumuamua, or Earth as opposed to the “XP-11213- Ac#4cP” style of naming astronomical objects?</description>
-    </item>
-    
-    <item>
-      <title>Quips</title>
-      <link>https://tonkatsu.io/quips/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tonkatsu.io/quips/</guid>
-      <description>A few notable quotes and quips that are worth caching
-​
-&amp;ldquo;Rome was not built in a day, but they were laying bricks every hour.&amp;rdquo; &amp;ndash; John Heywood (potentially)
-“5 out of 4 people struggle with math.” &amp;ndash; Professor John Sparks, Statistican</description>
     </item>
     
   </channel>
