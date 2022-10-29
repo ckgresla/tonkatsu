@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Napkins on CKG</title>
+    <link>https://tonkatsu.io/napkins/</link>
+    <description>Recent content in Napkins on CKG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>[♥](https://tonkatsu.io)</copyright>
+    <lastBuildDate>Fri, 28 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Difference between ML and AI</title>
+      <link>https://tonkatsu.io/napkins/diff-ml-ai/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/diff-ml-ai/</guid>
+      <description>​
+Throughout my travels in Cyberspace; journeying across countless github repos, enduring several senseless Zoom meetings, delving into the depths of many package docs and interacting with Technical &amp;amp; Non-Technical folk alike, I have always wondered where the generally acceptable line between Machine Learning (ML) and Artificial Intelligence (AI) is to be drawn.</description>
+    </item>
+    
+    <item>
+      <title>Why Voluntary Suffering is Worth it</title>
+      <link>https://tonkatsu.io/napkins/suffervoluntarily/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/suffervoluntarily/</guid>
+      <description>​
+Context # I have spent the last few weeks immersing myself in the Policy Optimization Literature, within the larger field of Reinforcement Learning. This branch of Machine Learning has always been my &amp;ldquo;fancy&amp;rdquo;, of the main fields in ML, RL is the most &amp;ldquo;gangster&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Factor Analysis</title>
+      <link>https://tonkatsu.io/napkins/factoranalysis/</link>
+      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/factoranalysis/</guid>
+      <description>​
+Simply Put # Factor Analysis refers to statistical methods that reduce Variables in a Dataset to a smaller number of Factors, through Linear Combinations of Correlated Variables or with other dimensionality reduction techniques.</description>
+    </item>
+    
+    <item>
+      <title>Production Vs. Research</title>
+      <link>https://tonkatsu.io/napkins/productionvsrnd/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/productionvsrnd/</guid>
+      <description>​
+Canonically, Businesses seem to separate their internal functions product functions into 2 distinct categories. The first grouping contains things that will affect the bottom line in 5 minutes, 2 weeks, 3 months or up to 5 years, a clearly defined temporal window.</description>
+    </item>
+    
+    <item>
+      <title>The Last Keyboard You Should Buy</title>
+      <link>https://tonkatsu.io/napkins/thelastkeyboard/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/thelastkeyboard/</guid>
+      <description>​
+​
+Spoiler; the ridiculously good board is the HHKB2 Professional Hybrid or your pick of Happy Hacking Keyboard&amp;rsquo;s product line.
+If specificity in specifications or a keyboard enthusiast-esque review is more your thing, this post from Material Journal is what pushed me over the edge to cough up the somewhat aggregious amount of cash that one of these boards will run you.</description>
+    </item>
+    
+    <item>
+      <title>The Real High-Fashion</title>
+      <link>https://tonkatsu.io/napkins/personalaesthetics/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/personalaesthetics/</guid>
+      <description>​ Trends and Fashions are effectively tides of widespread popularity in the way we dress but also, perhaps more importantly, in the thoughts we express and hold. At any given time the thing that is &amp;ldquo;in&amp;rdquo; is the thing that, let&amp;rsquo;s say, the &amp;ldquo;cool kids&amp;rdquo; are doing &amp;ndash; be it bell-bottom jeans, skinny jeans, eating the rich, or what have you.</description>
+    </item>
+    
+    <item>
+      <title>Autoencoders are Thought Machines</title>
+      <link>https://tonkatsu.io/napkins/autoencodersthink/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/autoencodersthink/</guid>
+      <description>​
+Intelligence might be thought of as the ability to compress information. Learning then is being able to find useful compressions of larger concepts that can be queried or accessed in an efficent way.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Examples</title>
+      <link>https://tonkatsu.io/napkins/examples/</link>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/examples/</guid>
+      <description>Some of the world&amp;rsquo;s best ideas were incarnated on a napkin, here are a few digitized ones. This page is just a quick reference to see how what is supported in Hugo&amp;rsquo;s flavour of Markdown and the according syntax.</description>
+    </item>
+    
+  </channel>
+</rss>
