@@ -5,20 +5,25 @@ isoCode = "en"
 weight = 1
 rtl = false
 
-title = "Blowfish"
+title = "CKG"
+#title = "blowfish"
 # logo = "img/logo.png"
-description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
+#description = "My awesome website"
+description = "Scriptkid on the way to Unix Wizardhood"
+#copyright = "Copy, _right?_ :thinking_face:"
+copyright = "[♥](https://tonkatsu.io)" #can make this clickable
 
 dateFormat = "2 January 2006"
 
 [author]
-  name = "Your name here"
-  image = "img/blowfish_logo.png"
-  headline = "I'm only human"
-  bio = "A little bit about you"
-  # links = [
-  #   { email = "mailto:hello@your_domain.com" },
+  name = "Chris Kerwell Gresla"
+  #image = "img/blowfish_logo.png"
+  headline = "A simple man trying to make his way through the galaxy."
+  #bio = "A little bit about you"
+
+# Below Links can be configured with any icons from- https://nunocoracao.github.io/blowfish/samples/icons/
+   links = [
+     { email = "mailto:ckgresla@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
@@ -30,7 +35,7 @@ dateFormat = "2 January 2006"
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-  #   { github = "https://github.com/username" },
+     { github = "https://github.com/ckgresla" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { hashnode = "https://username.hashnode.dev" },
@@ -38,7 +43,7 @@ dateFormat = "2 January 2006"
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
+     { linkedin = "https://linkedin.com/in/chriskerwellgresla" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
   #   { microsoft = "https://www.microsoft.com/" },
@@ -48,6 +53,8 @@ dateFormat = "2 January 2006"
   #   { reddit = "https://reddit.com/user/username" },
   #   { researchgate = "https://www.researchgate.net/profile/username" },
   #   { slack = "https://workspace.url/team/userid" },
+     #{ music = "https://open.spotify.com/user/1258747599?si=zglZfoeCRI-KMwxl9sANhA" },
+     { fire = "https://open.spotify.com/user/1258747599?si=zglZfoeCRI-KMwxl9sANhA" },
   #   { snapchat = "https://snapchat.com/add/username" },
   #   { soundcloud = "https://soundcloud.com/username" },
   #   { stack-overflow = "https://stackoverflow.com/users/userid/username" },
@@ -60,4 +67,4 @@ dateFormat = "2 January 2006"
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
   #   { ko-fi = "https://ko-fi.com/username" },
-  # ]
+   ]

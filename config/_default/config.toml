@@ -3,8 +3,8 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 theme = "blowfish"
-# baseURL = "https://your_domain.com/"
-baseURL = "http://localhost"
+#baseURL = "http://localhost"
+baseURL = "https://tonkatsu.io"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true

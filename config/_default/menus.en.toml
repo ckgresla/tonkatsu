@@ -10,10 +10,17 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
+[[main]]
+  name = "About"
+  pageRef = "about"
+
+[[main]]
+  name = "Napkins"
+  pageRef = "napkins"
 #  weight = 10
+[[main]]
+  name = "Ponder"
+  pageRef = "ponderings"
 
 #[[main]]
 #  name = "Categories"
@@ -32,7 +39,7 @@
 
 
 # [[footer]]
-#   name = "Tags"
+#  name = "Tags"
 #   pageRef = "tags"
 #   weight = 10
 
@@ -40,3 +47,8 @@
 #   name = "Categories"
 #   pageRef = "categories"
 #   weight = 20
+
+#[[footer]]
+#  name = "ghost"
+#  pre = "heart"
+#  pageRef = "/"
