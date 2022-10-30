@@ -4,8 +4,17 @@
   
     
       <url>
+            <loc>https://tonkatsu.io/napkins/bayesianstats/</loc>
+            <lastmod>2022-10-30T16:54:59-05:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://tonkatsu.io/</loc>
-            <lastmod>2022-10-28T00:00:00+00:00</lastmod>
+            <lastmod>2022-10-30T16:54:59-05:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -14,7 +23,7 @@
     
       <url>
             <loc>https://tonkatsu.io/napkins/</loc>
-            <lastmod>2022-10-28T00:00:00+00:00</lastmod>
+            <lastmod>2022-10-30T16:54:59-05:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -96,15 +105,6 @@
       <url>
             <loc>https://tonkatsu.io/series/</loc>
             <lastmod>2022-06-08T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://tonkatsu.io/napkins/examples/</loc>
-            <lastmod>2022-03-06T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>

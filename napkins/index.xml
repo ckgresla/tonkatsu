@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>[♥](https://tonkatsu.io)</copyright>
-    <lastBuildDate>Fri, 28 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 16:54:59 -0500</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bayesian Statistics</title>
+      <link>https://tonkatsu.io/napkins/bayesianstats/</link>
+      <pubDate>Sun, 30 Oct 2022 16:54:59 -0500</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/bayesianstats/</guid>
+      <description>I have always found statistics to be pretty cool. The implications of the Central Limit Theorem (CLT) and being able to conduct hypothesis tests to make truth-y statements about the world is as phenomenal in my opinion as; something existing rather that nothing and backpropagation working as a tool to train neural networks.</description>
+    </item>
+    
     <item>
       <title>The Difference between ML and AI</title>
       <link>https://tonkatsu.io/napkins/diff-ml-ai/</link>
@@ -77,15 +86,6 @@ If specificity in specifications or a keyboard enthusiast-esque review is more y
       <guid>https://tonkatsu.io/napkins/autoencodersthink/</guid>
       <description>​
 Intelligence might be thought of as the ability to compress information. Learning then is being able to find useful compressions of larger concepts that can be queried or accessed in an efficent way.</description>
-    </item>
-    
-    <item>
-      <title>Markdown Examples</title>
-      <link>https://tonkatsu.io/napkins/examples/</link>
-      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://tonkatsu.io/napkins/examples/</guid>
-      <description>Some of the world&amp;rsquo;s best ideas were incarnated on a napkin, here are a few digitized ones. This page is just a quick reference to see how what is supported in Hugo&amp;rsquo;s flavour of Markdown and the according syntax.</description>
     </item>
     
   </channel>
