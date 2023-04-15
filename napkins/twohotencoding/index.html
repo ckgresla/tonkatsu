@@ -15,14 +15,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>A Tripartite Framework of Reasoning &middot; tonkatsu.io</title>
-  <meta name="title" content="A Tripartite Framework of Reasoning &middot; tonkatsu.io" />
+  <title>Two Hot Encodings &middot; tonkatsu.io</title>
+  <meta name="title" content="Two Hot Encodings &middot; tonkatsu.io" />
   
   <meta name="description" content="Unix &amp; AI Wizard in Training" />
   
   
   
-  <link rel="canonical" href="https://tonkatsu.io/napkins/tripartitereasoning/" />
+  <link rel="canonical" href="https://tonkatsu.io/napkins/twohotencoding/" />
   
   
   
@@ -73,17 +73,17 @@
   
   
   
-  <meta property="og:title" content="A Tripartite Framework of Reasoning" />
-<meta property="og:description" content="What constitutes being intelligent? Is it being able to recall facts or tidbits of information with perfect recall? Or being able to dissect the statements and logic on another to prove their inferiority?" />
+  <meta property="og:title" content="Two Hot Encodings" />
+<meta property="og:description" content="Anyone who has gotten their feet wet with Data Science or Classical Machine Learning has come across the concept of One-Hot Encoding. A method of representing non-ordered Categorical data as a vector of zeros and a single one." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://tonkatsu.io/napkins/tripartitereasoning/" /><meta property="article:section" content="napkins" />
-<meta property="article:published_time" content="2023-04-02T18:00:41-06:00" />
-<meta property="article:modified_time" content="2023-04-02T18:00:41-06:00" /><meta property="og:site_name" content="tonkatsu.io" />
+<meta property="og:url" content="https://tonkatsu.io/napkins/twohotencoding/" /><meta property="article:section" content="napkins" />
+<meta property="article:published_time" content="2023-04-14T11:00:41-06:00" />
+<meta property="article:modified_time" content="2023-04-14T11:00:41-06:00" /><meta property="og:site_name" content="tonkatsu.io" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="A Tripartite Framework of Reasoning"/>
-<meta name="twitter:description" content="What constitutes being intelligent? Is it being able to recall facts or tidbits of information with perfect recall? Or being able to dissect the statements and logic on another to prove their inferiority?"/>
+<meta name="twitter:title" content="Two Hot Encodings"/>
+<meta name="twitter:description" content="Anyone who has gotten their feet wet with Data Science or Classical Machine Learning has come across the concept of One-Hot Encoding. A method of representing non-ordered Categorical data as a vector of zeros and a single one."/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Napkins",
-    "name": "A Tripartite Framework of Reasoning",
-    "headline": "A Tripartite Framework of Reasoning",
+    "name": "Two Hot Encodings",
+    "headline": "Two Hot Encodings",
     
-    "abstract": "What constitutes being intelligent? Is it being able to recall facts or tidbits of information with perfect recall? Or being able to dissect the statements and logic on another to prove their inferiority?",
+    "abstract": "Anyone who has gotten their feet wet with Data Science or Classical Machine Learning has come across the concept of One-Hot Encoding. A method of representing non-ordered Categorical data as a vector of zeros and a single one.",
     "inLanguage": "en",
-    "url" : "https:\/\/tonkatsu.io\/napkins\/tripartitereasoning\/",
+    "url" : "https:\/\/tonkatsu.io\/napkins\/twohotencoding\/",
     "author" : {
       "@type": "Person",
       "name": "Chris Kerwell Gresla"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-04-02T18:00:41-06:00",
-    "datePublished": "2023-04-02T18:00:41-06:00",
+    "dateCreated": "2023-04-14T11:00:41-06:00",
+    "datePublished": "2023-04-14T11:00:41-06:00",
     
-    "dateModified": "2023-04-02T18:00:41-06:00",
+    "dateModified": "2023-04-14T11:00:41-06:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1713"
+    "wordCount": "665"
   }]
   </script>
 
@@ -462,7 +462,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      A Tripartite Framework of Reasoning
+      Two Hot Encodings
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -505,7 +505,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-04-02 18:00:41 -0600 -0600">2 April 2023</time><span class="px-2 text-primary-500">&middot;</span><span>1713 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">9 mins</span>
+  <time datetime="2023-04-14 11:00:41 -0600 -0600">14 April 2023</time><span class="px-2 text-primary-500">&middot;</span><span>665 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
   
 
   
@@ -524,80 +524,72 @@
     
       <div class="min-w-0 min-h-0 max-w-prose">
         
-        <p>What constitutes being intelligent? Is it being able to recall facts or tidbits of information with perfect recall? Or being able to dissect the statements and logic on another to prove their inferiority? Maybe intelligence is just being able to read a stack-trace properly. But perhaps, intelligence is to be measured by the efficacy of one&rsquo;s <em>hunch</em>.</p>
-<p>If accuracy in hunches is how we will measure intelligence, as opposed to; memorization efficiency or the ability to final logical inconsistencies &ndash; then the wielding of intelligence is the making of correct guesses. Guessing on the basis of information is <em>inferring</em> something, that is to infer is to make an educated guess &ndash; the folks at Oxford&rsquo;s English Dictionary phrase it as:</p>
-<blockquote>
-<p>to infer is to decide that something is true based on the basis of the information that is available.</p>
-</blockquote>
-<p>Inference may not comprise <em>all</em> of intelligence, but making correct guesses about the world is no small part of Systems that have intelligence. For those interested in Natural or Artificial intelligence, we might wonder how inference gets implemented &ndash; in the accepted canon of Logic, inferences are progressive conclusions arrived at via reasoning. In Logic, since the days of Aristotle (300 BCE), inference has been divided into <em>deductive</em> and <em>inductive</em> reasoning. Thanks to one interesting fellow in the 1800s, Charles Sanders Peirce (CSP), a third method dubbed <em>abductive</em> reasoning joined the fray and the three methods are frameworks of reasoning that one could use to implement intelligence. Let us explore the existing implementations of intelligence via reasoning and take a speculative foray into potential avenues for new implementations.</p>
-<p>
+        <p>Anyone who has gotten their feet wet with Data Science or Classical Machine Learning has come across the concept of <a href="https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/"   target="_blank">
+    One-Hot Encoding</a>. A method of representing non-ordered Categorical data as a vector of zeros and a single one. One-hot encoding is a part of the accepted canon of ML, and is a common step in pre-processing data pipelines.</p>
+<p>Recently, I had the unexpected luxury of coming across the <a href="https://arxiv.org/pdf/2301.04104v1.pdf"   target="_blank">
+    Mastering Diverse Domains through World Models</a> paper and in it, was introduced to <em>Two-hot encoding</em>, an interesting generalization of one-hot encoding to continuous values. In this work the authors use two-hot encoding as part of the Critic network&rsquo;s (critic being ~equal to a reward prediction network in their <a href="http://www.incompleteideas.net/book/ebook/node66.html"   target="_blank">
+    Actor-Critic</a> formulation) loss function.  After normalizing rewards across domains with the Symlog transformation, they apply two-hot encoding to <em>discretize</em> reward signals &ndash; turning what was a continuous regression problem into Softmax over a binned reward distribution. In my opinion, this simple trick is GANGSTER + worth implementing.</p>
+<h2 id="one-hot-encoding" class="relative group">One-Hot Encoding <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#one-hot-encoding" aria-label="Anchor">#</a></span></h2>
+<p>The typical flow for one-hot encoding looks something like this;</p>
+<ul>
+<li>We have a categorical feature (think column of data in a Table or Excel Spreadsheet), say &ldquo;Beverage&rdquo;</li>
+<li>That feature has a number of unique values, like: [old fashioned, coffee, makgeolli, water, lychee juice]</li>
+<li>To more easily mathematize this data for our Linear Algebraic friends, we encode with integers, for one-hot encoding that means an unordered encoding
+<ul>
+<li>Which boils down to, &ldquo;old fashioned&rdquo; is no better or worse than &ldquo;lychee juice&rdquo; &ndash; it is just <em>different</em>, which means encoding these variables as 1 and 2 implies a relationship that is not technically valid (the thing encoded as 2 is &ldquo;greater than&rdquo; the thing encoded as 1)</li>
+</ul>
+</li>
+</ul>
+<p>For this toy beverage example, a native python implementation might look something like follows:</p>
+<pre tabindex="0"><code>unique_beverages = [&#34;old fashioned&#34;, &#34;coffee&#34;, &#34;makgeolli&#34;, &#34;water&#34;, &#34;lychee juice&#34;]
 
+def one_hot_encode(x: str):
+    &#34;&#34;&#34; One-Hot Encode a beverage name according to the unique beverages set &#34;&#34;&#34;
+    idx = unique_beverages.index(x)
+    encoded = [] #empty list for the vals
+    for i in range(len(unique_beverages)):
+        if i == idx:
+            encoded.append(1)
+        else:
+            encoded.append(0)
+    return encoded
+</code></pre><p>Which for <code>makgeolli</code>, would return the vector <code>[0, 0, 1, 0, 0]</code> &ndash; all values being zero except for the position corresponding to our instance&rsquo;s categorical value, which is one.</p>
+<h2 id="two-hot-encoding" class="relative group">Two-Hot Encoding <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#two-hot-encoding" aria-label="Anchor">#</a></span></h2>
+<p>To generalize one-hot encoding, we need to discretize a continuous space. Something like &ldquo;tastiness&rdquo; might be scored on an infinite scale &ndash; mid items like lukewarm chicken soup having tastiness=0.01 and tastier items like chicken nanban having tastiness=102.3</p>
+<ul>
+<li>To Discretize a continuous space, we <em>bin</em> it, here I will do equidistant bins, but there might be some value in non-equidistance (really tasty things are all one bin, but moderately tasty and tasty are two separate bins)</li>
+<li>For the sake of this example, say the space of continuous tastiness values will be split into 5 bins</li>
+</ul>
+<pre tabindex="0"><code>two_hot_bins = [-5, -1, 0, 1, 5] #5 in this toy case
 
+def two_hot_encode(x: float):
+    &#34;&#34;&#34; Two-Hot Encode a tastiness score, assuming a sorted list of bins &#34;&#34;&#34;
+    encoded = [0 for i in range(5)]
 
-  
-  
-  
-    <figure>
-      <img class="my-0 rounded-md" src="/assets/imgs/dwarf_in_the_flask.png" alt="Homunculus" />
-      
-    </figure>
-  
+    # Find Lower Bin Index for our x value
+    for i in range(len(two_hot_bins)):
+        if (two_hot_bins[i] &lt;= x) and (two_hot_bins[i+1] &gt;= x):
+            b_lower, b_upper = two_hot_bins[i], two_hot_bins[i+1] #bins encircling our continuous value
+            bl_idx, bu_idx = i, i+1
+            # Calculate Distances from x to nearest bins, closer ~= higher &#34;probability&#34;
+            lower_dist = x - b_lower
+            upper_dist = b_upper - x #since negative dist
+            total_dist = lower_dist + upper_dist
+            lower_prob, upper_prob = lower_dist/total_dist, upper_dist/total_dist
 
-</p>
-<h2 id="one-mad-lad" class="relative group">One Mad Lad <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#one-mad-lad" aria-label="Anchor">#</a></span></h2>
-<p>The trichotomy view of reasoning methods is attributable CSP, who was something of an American Diogenes of Logic. He lived an interesting life, starting in 1842 as the son of Benjamin Peirce (Founder of the Harvard Mathematics department) &ndash; CSP was quite intellectually gifted and also did rather poorly in school (failing in most classes sans Chemistry). He lived a Diogenes-esque existence in that he decided at age <a href="https://plato.stanford.edu/entries/peirce/#:~:text=In%20his%20youth,der%20Logik."   target="_blank">
-    20</a> that he would dedicate his life to the study of Logic, a field which at the time had no money available for one to make a living conducting abstract logic research. He held true to his promise to himself and was able to pump out a whopping 92,000 pages over about 57 years and 2 marriages. His second marriage followed the 1st&rsquo;s divorce by 2 days and was to a woman with at least some Romani (Gypsy) ancestry, which sadly cost him his job as a Mathematics professor at John Hopkins University. He had a falling out with his academic career and later his career as a Geodetic Surveyor (measuring/studying the Earth&rsquo;s gravity via pendulums) after funding was canceled and didn&rsquo;t live very cushy-ily throughout his life.</p>
-<p>For this mad lad though, that wasn&rsquo;t necessarily a problem, since his objective was Logic-ing and he did brilliantly within that. He also believed that clustering was the most effective solution for all classification tasks, had an odd affinity for the number 3 and distilled a <a href="https://www.appstate.edu/~steelekm/classes/psy3100/Documents/Scientific_Thinking.pdf"   target="_blank">
-    lovely rendition of the scientific method</a> into logical reasoning that we should all brush up on before attempting anything worth being called science.</p>
-<h2 id="methods-of-reasoning" class="relative group">Methods of Reasoning <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#methods-of-reasoning" aria-label="Anchor">#</a></span></h2>
-<p>Before we think about the implementations of reasoning in AI, lets walk through the distinguishing features of our frameworks.</p>
-<p><strong>Deductive Reasoning</strong> involves making truthful statements about &ldquo;truth&rdquo;. Under a deductive framework we can make &ldquo;correct&rdquo; statements &ndash; insofar as correct means in accordance with our prior knowledge. To deductively reason is to deduce a conclusion based on the attributes of the involved objects we are reasoning about. The main example used to explain deduction is the <a href="https://en.wikipedia.org/wiki/Syllogism"   target="_blank">
-    Syllogism</a> which is typically represented as a 3 line argument:</p>
-<ul>
-<li>All Cats are Evil</li>
-<li>A Cat is the Supreme Leader of the World</li>
-<li>The Supreme Leader is Evil</li>
-</ul>
-<p>The essence of the deductive inference is taking two things you hold to be true and combining their mutual information to make a third, &ldquo;true&rdquo;, statement.</p>
-<p><strong>Inductive Reasoning</strong> involves applying information you have on hand or gained from experience to new observations. This method underpins basically all of modern machine learning &amp; work in AI. To make an inductive inference, one needs to have prior information and then make a prediction based on that information. <a href="https://my.parker.edu/ICS/icsfs/INDUCTIVE_REASONING.htm?target=d0c9ff98-b316-423f-8e3f-947763e4f28c#:~:text=The%20classical%20example%20used%20to,of%20us%20are%20still%20around!"   target="_blank">
-    Inductive reasoning</a>, as it relates to the malevolence of cats might look like:</p>
-<ul>
-<li>99/100 Cats I have come across are Evil</li>
-<li>I see a New Cat</li>
-<li>This New Cat is likely Evil</li>
-</ul>
-<p>The main idea of inductive inference is using prior knowledge to predict what may occur in the future.</p>
-<p><strong>Abductive Reasoning</strong> involves coming up with a likely possible explanation for a phenomena given the information you have available to you. This is sort of a combination of deduction and induction in that you leverage your current &ldquo;context&rdquo; to justify a statement that you believe is &ldquo;true&rdquo;. One example of drawing an <a href="https://plato.stanford.edu/entries/abduction/#AbdGenIde"   target="_blank">
-    Abductive conclusion</a> might be:</p>
-<ul>
-<li>There are feathers in a birdcage with the door broken off it&rsquo;s hinge</li>
-<li>There is a shallow mark on the windowsill and the window is ajar</li>
-<li>A Cat did not eat the Bird, instead the Bird freed itself</li>
-</ul>
-<p>The main idea of abductive inference is choosing the best possible conclusion given the current context. The conclusion chosen may <em>contradict</em> the likelihood of observed data or your prior beliefs about the world, but it is the best hunch of the bunch.</p>
-<h2 id="reasoning-in-ai" class="relative group">Reasoning in &ldquo;AI&rdquo; <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#reasoning-in-ai" aria-label="Anchor">#</a></span></h2>
-<ul>
-<li>explain how AI has evolved from deductive to inductive methods
-AI became regarded as a proper field in the ~1950s, a lovely mixture of ideas from the fields of; Mathematics, Psychology, Engineering &amp; Computer Science and the minds of great folks like; Turing, Shannon, Minksy &amp; Gödel. Early AI was mainly concerned with <em>Deductive Reasoning</em>, the reasoning behind this was the pioneers of the field presumed that if you could bake in a lot of knowledge about the world into a Computer then it could reason about that knowledge with Superhuman speed and efficiency &ndash; making it a superhuman intelligence. One big project today that is still forging in the deductive way is <a href="https://cyc.com/"   target="_blank">
-    Cyc</a>, which has been spearheaded by Doug Lenat since the 1980s. Deductive systems can reason about things they know to be &ldquo;true&rdquo; in a superhuman fashion, so why do we not have AGI or hear much about new deductive breakthroughs in AI? The issue with deductive reasoning is fundamental to the paradigm itself. Deductive systems can only make statements about that which they already know, in other words, statements about new information are <em>irreconcilable</em>. Deductive reasoning relies on rules about the attributes of objects to make statements, when a new/unseen object arises or a contradictory-example is provided then our deductive system is out. The veracity of a deductive system is only as salient as the quality of the truth baked into the rules of the system by Humans, which itself will not be infallible. Trying to give a deduction-based system the &ldquo;keys to it&rsquo;s own knowledge base&rdquo; goes poorly, since updating a single statement to be contradictory then renders all statements in the system to be fallible (one error in reasoning opens the floodgates to all errors). Reasoning deductively can be mathematically/provably sound but the truth of the statement in the real world is governed it&rsquo;s priors, priors which, in the case of deductive reasoning, cannot be updated without human intervention.</li>
-</ul>
-<p>Today we hear very little about deductive methods, instead there is an unyielding dredge of Arxiv papers all leveraging inductive reasoning. The basis of which is learning to infer from existing data. The addition of induction to the set of AI building blocks opens the door to systems that <em>learn over time</em> and when we cleverly combine this framework with compute &amp; the data available on the internet we can create GPT-3s, and Stable Diffusions. The caveat with Neural Networks or learning to infer based on the statistics of occurring data is threefold; one we are never certain about what the next instance will be, two we have no theory as to why the data occurs in the manner it does and three the distribution underpinning life is non-stationary. The 1st might just be a [causal inference problem])(<a href="https://blog.evjang.com/2019/03/causal-rl.html%29"   target="_blank">
-    https://blog.evjang.com/2019/03/causal-rl.html)</a>, which to solve requires more comprehensive data but then again it might not be. The second is also problematic since we do not care about the <em>why</em> of anything, purely inductive inference only cares about the number of positive N and negative N, taking the observations we come across as being the true ground truth. Belief in observation without contemplation can be problematic, as <a href="https://mashimo.wordpress.com/2013/03/12/bertrand-russells-inductivist-turkey/"   target="_blank">
-    Bertrand Russell&rsquo;s Turkey.</a> illustrates. The third is perhaps the most perplexing of all since inductive reasoning systems in the environment of reality will always be behind, they can update themselves (a big step up from deduction) but the full solution to intelligence, it is not.</p>
-<h2 id="where-is-the-abduction" class="relative group">Where is the Abduction? <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#where-is-the-abduction" aria-label="Anchor">#</a></span></h2>
-<p>If I had to guess as to how Abduction is to be implemented, I would wager that you do something like deduction over learned hypothesis probabilities. Effectively combining the truthy-ness of statements made deductively with the update-ability of induction. Some folks have formulated abductive reasoning as a <a href="https://arxiv.org/pdf/1908.05739.pdf"   target="_blank">
-    next token prediction sort of task</a> which might be sufficient but still misses a dedicated architecture for accomplishing this specific type of reasoning. To build the <a href="https://en.wikipedia.org/wiki/Homunculus"   target="_blank">
-    Ghost in the Flask</a> we have to at minimum match Human intelligence and Humans can have pretty good hunches. Hunches that are non-obvious or even counter intuitive to the existing information.</p>
-<p>As a callback to the &ldquo;Inference Game&rdquo; that started this post, intelligence is not about having all relevant information or sorting through a large amount of information, it is about using leveraging the available information correctly. If you also want to find out what implemented Abduction looks like, <a href="https://tonkatsu.io/about/"   target="_blank">
-    say hi</a>.</p>
-<p>​</p>
-<h2 id="notes" class="relative group">Notes <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#notes" aria-label="Anchor">#</a></span></h2>
-<ul>
-<li>This post was largely inspired by <a href="https://en.wikipedia.org/wiki/Erik_J._Larson"   target="_blank">
-    Erik J. Larson</a>&rsquo;s book, &ldquo;<a href="https://www.amazon.com/Myth-Artificial-Intelligence-Computers-Think/dp/0674983513"   target="_blank">
-    The Myth of Artificial Intelligence</a>&rdquo;, which is a phenomenal read and unique take on AI as it stands today.</li>
-<li>Despite all the cool stuff LLMs can do (as of Q1 2023) I think Larson&rsquo;s points are still valid. I would wager AGI is not going to be achieved by predicting the next byte-pair with a 100 trillion parameter model.</li>
-</ul>
+            encoded[bl_idx], encoded[bu_idx] = upper_prob, lower_prob #assign closest val highest &#34;prob&#34;
+
+        # Smaller than Smallest bin value
+        elif two_hot_bins[0] &gt; x:
+            encoded[0] = 1
+
+        # Greater than Largest bin value
+        elif two_hot_bins[-1] &lt; x:
+            encoded[-1] = 1
+
+    return encoded
+</code></pre><p>Which for a tastiness value of 0.1, would return the vector <code>[0, 0, 0.9, 0.1, 0]</code>, for a tastiness value of 1.2 would return a rounded <code>[0, 0, 0, 0.95, 0.049]</code> and for the value -1231 (probably tastiness of oysters) would return <code>[1, 0, 0, 0, 0]</code>.</p>
+<p>Super Cool!</p>
 
         </br></br>
         
@@ -607,7 +599,7 @@ AI became regarded as a proper field in the ~1950s, a lovely mixture of ideas fr
         var liked_article = false
 
         if (typeof auth !== 'undefined') {
-          var oid = "views_napkins\/TripartiteReasoning.md"
+          var oid = "views_napkins\/TwoHotEncoding.md"
           var id = oid ? oid.replaceAll("/", "-") : oid
 
           var viewed = localStorage.getItem(id);
@@ -636,7 +628,7 @@ AI became regarded as a proper field in the ~1950s, a lovely mixture of ideas fr
               });
           }
 
-          var oid_likes = "likes_napkins\/TripartiteReasoning.md"
+          var oid_likes = "likes_napkins\/TwoHotEncoding.md"
           var id_likes = oid_likes ? oid_likes.replaceAll("/", "-") : oid_likes
 
           var liked = localStorage.getItem(id_likes);
@@ -707,7 +699,7 @@ AI became regarded as a proper field in the ~1950s, a lovely mixture of ideas fr
         }
 
         function process_article() {
-          var oid_likes = "likes_napkins\/TripartiteReasoning.md"
+          var oid_likes = "likes_napkins\/TwoHotEncoding.md"
           var id_likes = oid_likes ? oid_likes.replaceAll("/", "-") : oid_likes
           if (!liked_article) {
             like_article(id_likes)
@@ -849,7 +841,7 @@ AI became regarded as a proper field in the ~1950s, a lovely mixture of ideas fr
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group" href="/napkins/lifeworkliving/">
+            <a class="flex group" href="/napkins/tripartitereasoning/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -861,11 +853,11 @@ AI became regarded as a proper field in the ~1950s, a lovely mixture of ideas fr
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Life, Work & Living</span
+                  >A Tripartite Framework of Reasoning</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-01-05 15:24:41 -0600 CST">5 January 2023</time>
+                    <time datetime="2023-04-02 18:00:41 -0600 -0600">2 April 2023</time>
                   
                 </span>
               </span>
@@ -873,28 +865,6 @@ AI became regarded as a proper field in the ~1950s, a lovely mixture of ideas fr
           
         </span>
         <span>
-          
-            <a class="flex text-right group" href="/napkins/twohotencoding/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Two Hot Encodings</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-04-14 11:00:41 -0600 -0600">14 April 2023</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>

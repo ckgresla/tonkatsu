@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>[♥](https://tonkatsu.io)</copyright>
-    <lastBuildDate>Sun, 02 Apr 2023 18:00:41 -0600</lastBuildDate><atom:link href="https://tonkatsu.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Apr 2023 11:00:41 -0600</lastBuildDate><atom:link href="https://tonkatsu.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two Hot Encodings</title>
+      <link>https://tonkatsu.io/napkins/twohotencoding/</link>
+      <pubDate>Fri, 14 Apr 2023 11:00:41 -0600</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/twohotencoding/</guid>
+      <description>Anyone who has gotten their feet wet with Data Science or Classical Machine Learning has come across the concept of One-Hot Encoding. A method of representing non-ordered Categorical data as a vector of zeros and a single one.</description>
+      
+    </item>
+    
     <item>
       <title>A Tripartite Framework of Reasoning</title>
       <link>https://tonkatsu.io/napkins/tripartitereasoning/</link>
