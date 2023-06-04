@@ -15,14 +15,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Two Hot Encodings &middot; tonkatsu.io</title>
-  <meta name="title" content="Two Hot Encodings &middot; tonkatsu.io" />
+  <title>Waiting 10 Seconds in 1 &middot; tonkatsu.io</title>
+  <meta name="title" content="Waiting 10 Seconds in 1 &middot; tonkatsu.io" />
   
   <meta name="description" content="Unix &amp; AI Wizard in Training" />
   
   
   
-  <link rel="canonical" href="https://tonkatsu.io/napkins/twohotencoding/" />
+  <link rel="canonical" href="https://tonkatsu.io/napkins/fasterthantime/" />
   
   
   
@@ -73,17 +73,17 @@
   
   
   
-  <meta property="og:title" content="Two Hot Encodings" />
-<meta property="og:description" content="Anyone who has gotten their feet wet with Data Science or Classical Machine Learning has come across the concept of One-Hot Encoding. A method of representing non-ordered Categorical data as a vector of zeros and a single one." />
+  <meta property="og:title" content="Waiting 10 Seconds in 1" />
+<meta property="og:description" content="The journey of the programmer is one of ever-humbling discovery. Along this lovely trek you will experience a multitude of paradigm shifts, each of which shattering your prior conception of programming and making you a more effective programmer." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://tonkatsu.io/napkins/twohotencoding/" /><meta property="article:section" content="napkins" />
-<meta property="article:published_time" content="2023-04-14T11:00:41-06:00" />
-<meta property="article:modified_time" content="2023-04-14T11:00:41-06:00" /><meta property="og:site_name" content="tonkatsu.io" />
+<meta property="og:url" content="https://tonkatsu.io/napkins/fasterthantime/" /><meta property="article:section" content="napkins" />
+
+<meta property="og:site_name" content="tonkatsu.io" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Two Hot Encodings"/>
-<meta name="twitter:description" content="Anyone who has gotten their feet wet with Data Science or Classical Machine Learning has come across the concept of One-Hot Encoding. A method of representing non-ordered Categorical data as a vector of zeros and a single one."/>
+<meta name="twitter:title" content="Waiting 10 Seconds in 1"/>
+<meta name="twitter:description" content="The journey of the programmer is one of ever-humbling discovery. Along this lovely trek you will experience a multitude of paradigm shifts, each of which shattering your prior conception of programming and making you a more effective programmer."/>
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Napkins",
-    "name": "Two Hot Encodings",
-    "headline": "Two Hot Encodings",
+    "name": "Waiting 10 Seconds in 1",
+    "headline": "Waiting 10 Seconds in 1",
     
-    "abstract": "Anyone who has gotten their feet wet with Data Science or Classical Machine Learning has come across the concept of One-Hot Encoding. A method of representing non-ordered Categorical data as a vector of zeros and a single one.",
+    "abstract": "The journey of the programmer is one of ever-humbling discovery. Along this lovely trek you will experience a multitude of paradigm shifts, each of which shattering your prior conception of programming and making you a more effective programmer.",
     "inLanguage": "en",
-    "url" : "https:\/\/tonkatsu.io\/napkins\/twohotencoding\/",
+    "url" : "https:\/\/tonkatsu.io\/napkins\/fasterthantime\/",
     "author" : {
       "@type": "Person",
       "name": "Chris Kerwell Gresla"
     },
-    "copyrightYear": "2023",
-    "dateCreated": "2023-04-14T11:00:41-06:00",
-    "datePublished": "2023-04-14T11:00:41-06:00",
     
-    "dateModified": "2023-04-14T11:00:41-06:00",
+    
+    
+    
+    
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "665"
+    "wordCount": "552"
   }]
   </script>
 
@@ -462,7 +462,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Two Hot Encodings
+      Waiting 10 Seconds in 1
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -505,7 +505,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-04-14 11:00:41 -0600 -0600">14 April 2023</time><span class="px-2 text-primary-500">&middot;</span><span>665 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+  <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span>552 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
   
 
   
@@ -524,72 +524,70 @@
     
       <div class="min-w-0 min-h-0 max-w-prose">
         
-        <p>Anyone who has gotten their feet wet with Data Science or Classical Machine Learning has come across the concept of <a href="https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/"   target="_blank">
-    One-Hot Encoding</a>. A method of representing non-ordered Categorical data as a vector of zeros and a single one. One-hot encoding is a part of the accepted canon of ML, and is a common step in pre-processing data pipelines.
-Recently, I had the unexpected luxury of coming across the <a href="https://arxiv.org/pdf/2301.04104v1.pdf"   target="_blank">
-    Mastering Diverse Domains through World Models</a> paper and in it, was introduced to <em>Two-hot encoding</em>, an interesting generalization of one-hot encoding to continuous values. In this work the authors use two-hot encoding as part of the Critic network&rsquo;s (critic being ~equal to a reward prediction network in their <a href="http://www.incompleteideas.net/book/ebook/node66.html"   target="_blank">
-    Actor-Critic</a> formulation) loss function.  After normalizing rewards across domains with the Symlog transformation, they apply two-hot encoding to <em>discretize</em> reward signals &ndash; turning what was a continuous regression problem into Softmax over a binned reward distribution. In my opinion, this simple trick is GANGSTER + worth implementing.</p>
-<h2 id="one-hot-encoding" class="relative group">One-Hot Encoding <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#one-hot-encoding" aria-label="Anchor">#</a></span></h2>
-<p>The typical flow for one-hot encoding looks something like this;</p>
+        <p>The journey of the programmer is one of ever-humbling discovery. Along this lovely trek you will experience a multitude of paradigm shifts, each of which shattering your prior conception of programming and making you a more effective programmer. For the early-stage python programmer one such paradigm shift is the one you experience when you develop the intuition for parallel programming, which for me only came when I made use of <a href="https://docs.python.org/3/library/asyncio.html"   target="_blank">
+    asyncio</a>.</p>
+<p>The example problem that shifted my programming-view was a toy one, waiting for some number of seconds. Let us say we want to wait for 10 seconds. A straightforward python program for this may look as follows:</p>
+<pre tabindex="0"><code>import time
+
+def wait(n_seconds: int):
+    time.sleep(n_seconds)
+    print(&#34;slept for {N}&#34;.format(N=n_seconds))
+
+
+if __name__ == &#34;__main__&#34;:
+    st = time.monotonic()
+    wait(10) #wait for our 10 seconds
+    et = time.monotonic()
+    print(f&#34;whole script ran in {et-st:.2f}s&#34;)
+</code></pre><pre tabindex="0"><code># Outputs
+slept for 10
+whole script ran in 10.00s
+</code></pre><p>In this formulation, we do the waiting in a single function call for the specified amount of time &ndash; 10 seconds. This is a fine and dandy way of waiting, but what if we wanted to wait FASTER? Well since in this case there is no dependency on <em>how</em> we wait for 10 seconds, only that we wait for that amount of time, we can wait <em>concurrently</em>.</p>
+<p>This means that instead of doing all of our waiting in a single function call, <code>wait()</code> in the above, we may split up the &ldquo;waiting&rdquo; across different function calls. The following illustrates how we may split up our 10 seconds of waiting across 2 functions with <code>asnycio</code>:</p>
+<pre tabindex="0"><code>import time
+import asyncio
+
+async def wait(n_seconds: int):
+    await asyncio.sleep(n_seconds)
+    print(f&#34;slept for {n_seconds}&#34;)
+
+async def main():
+    jobs = [asyncio.create_task(wait(5)) for i in range(2)]
+    await asyncio.gather(*jobs)
+
+
+if __name__ == &#34;__main__&#34;:
+    st = time.monotonic()
+    asyncio.run(main())
+    et = time.monotonic()
+    print(f&#34;whole script ran in {et-st:.2f}s&#34;)
+</code></pre><pre tabindex="0"><code># Outputs
+slept for 5
+slept for 5
+whole script ran in 5.01s
+</code></pre><p>That is 10 seconds of work being done in 5! This is trivial but for the fresh pair of eyes this concept is a Universe away from what the serial programmer is familiar with. What we do instead of waiting for all 10 seconds in one function is split up the 10 seconds of waiting into &ldquo;jobs&rdquo; that each wait for N seconds, in this case we set each &ldquo;job&rdquo; to wait for 5, resulting in waiting for 10 seconds in only 5 seconds of human time.</p>
+<p>Setting our <code>range</code> to <code>10</code> and the number of seconds per job to <code>1</code> results in the following output for the script above:</p>
+<pre tabindex="0"><code># Outputs
+slept for 1
+slept for 1
+slept for 1
+slept for 1
+slept for 1
+slept for 1
+slept for 1
+slept for 1
+slept for 1
+slept for 1
+whole script ran in 1.00s
+</code></pre><p>As we can see, one can wait 10 seconds in 1, very cool!</p>
+<p>In practice you can use this for any &ldquo;work&rdquo; that is not bound by process &ndash; making an HTTP request, applying a tokenizer to a chunk of text data, etc. <code>Asyncio</code> as a library is tailored towards parallelizing IO bound operations, which means <code>asyncio</code> is best suited for splitting up work that does not need to wait for other work to be done.</p>
+<h2 id="recommended-readings" class="relative group">Recommended Readings <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#recommended-readings" aria-label="Anchor">#</a></span></h2>
 <ul>
-<li>We have a categorical feature (think column of data in a Table or Excel Spreadsheet), say &ldquo;Beverage&rdquo;</li>
-<li>That feature has a number of unique values, like: [old fashioned, coffee, makgeolli, water, lychee juice]</li>
-<li>To more easily mathematize this data for our Linear Algebraic friends, we encode with integers, for one-hot encoding that means an unordered encoding
-<ul>
-<li>Which boils down to, &ldquo;old fashioned&rdquo; is no better or worse than &ldquo;lychee juice&rdquo; &ndash; it is just <em>different</em>, which means encoding these variables as 1 and 2 implies a relationship that is not technically valid (the thing encoded as 2 is &ldquo;greater than&rdquo; the thing encoded as 1)</li>
+<li><a href="https://superfastpython.com/python-asyncio/"   target="_blank">
+    Dr. Jason Brownlee, doing what he does</a></li>
+<li><a href="https://realpython.com/async-io-python/"   target="_blank">
+    Real Python Intro</a></li>
 </ul>
-</li>
-</ul>
-<p>For this toy beverage example, a native python implementation might look something like follows:</p>
-<pre tabindex="0"><code>unique_beverages = [&#34;old fashioned&#34;, &#34;coffee&#34;, &#34;makgeolli&#34;, &#34;water&#34;, &#34;lychee juice&#34;]
-
-def one_hot_encode(x: str):
-    &#34;&#34;&#34; One-Hot Encode a beverage name according to the unique beverages set &#34;&#34;&#34;
-    idx = unique_beverages.index(x)
-    encoded = [] #empty list for the vals
-    for i in range(len(unique_beverages)):
-        if i == idx:
-            encoded.append(1)
-        else:
-            encoded.append(0)
-    return encoded
-</code></pre><p>Which for <code>makgeolli</code>, would return the vector <code>[0, 0, 1, 0, 0]</code> &ndash; all values being zero except for the position corresponding to our instance&rsquo;s categorical value, which is one.</p>
-<h2 id="two-hot-encoding" class="relative group">Two-Hot Encoding <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#two-hot-encoding" aria-label="Anchor">#</a></span></h2>
-<p>To generalize one-hot encoding, we need to discretize a continuous space. Something like &ldquo;tastiness&rdquo; might be scored on an infinite scale &ndash; mid items like lukewarm chicken soup having tastiness=0.01 and tastier items like chicken nanban having tastiness=102.3</p>
-<ul>
-<li>To Discretize a continuous space, we <em>bin</em> it, here I will do equidistant bins, but there might be some value in non-equidistance (really tasty things are all one bin, but moderately tasty and tasty are two separate bins)</li>
-<li>For the sake of this example, say the space of continuous tastiness values will be split into 5 bins</li>
-</ul>
-<pre tabindex="0"><code>two_hot_bins = [-5, -1, 0, 1, 5] #5 in this toy case
-
-def two_hot_encode(x: float):
-    &#34;&#34;&#34; Two-Hot Encode a tastiness score, assuming a sorted list of bins &#34;&#34;&#34;
-    encoded = [0 for i in range(5)]
-
-    # Find Lower Bin Index for our x value
-    for i in range(len(two_hot_bins)):
-        if (two_hot_bins[i] &lt;= x) and (two_hot_bins[i+1] &gt;= x):
-            b_lower, b_upper = two_hot_bins[i], two_hot_bins[i+1] #bins encircling our continuous value
-            bl_idx, bu_idx = i, i+1
-            # Calculate Distances from x to nearest bins, closer ~= higher &#34;probability&#34;
-            lower_dist = x - b_lower
-            upper_dist = b_upper - x #since negative dist
-            total_dist = lower_dist + upper_dist
-            lower_prob, upper_prob = lower_dist/total_dist, upper_dist/total_dist
-
-            encoded[bl_idx], encoded[bu_idx] = upper_prob, lower_prob #assign closest val highest &#34;prob&#34;
-
-        # Smaller than Smallest bin value
-        elif two_hot_bins[0] &gt; x:
-            encoded[0] = 1
-
-        # Greater than Largest bin value
-        elif two_hot_bins[-1] &lt; x:
-            encoded[-1] = 1
-
-    return encoded
-</code></pre><p>Which for a tastiness value of 0.1, would return the vector <code>[0, 0, 0.9, 0.1, 0]</code>, for a tastiness value of 1.2 would return a rounded <code>[0, 0, 0, 0.95, 0.049]</code> and for the value -1231 (probably tastiness of oysters) would return <code>[1, 0, 0, 0, 0]</code>.</p>
-<p>Super Cool!</p>
 
         </br></br>
         
@@ -599,7 +597,7 @@ def two_hot_encode(x: float):
         var liked_article = false
 
         if (typeof auth !== 'undefined') {
-          var oid = "views_napkins\/TwoHotEncoding.md"
+          var oid = "views_napkins\/FasterThanTime.md"
           var id = oid ? oid.replaceAll("/", "-") : oid
 
           var viewed = localStorage.getItem(id);
@@ -628,7 +626,7 @@ def two_hot_encode(x: float):
               });
           }
 
-          var oid_likes = "likes_napkins\/TwoHotEncoding.md"
+          var oid_likes = "likes_napkins\/FasterThanTime.md"
           var id_likes = oid_likes ? oid_likes.replaceAll("/", "-") : oid_likes
 
           var liked = localStorage.getItem(id_likes);
@@ -699,7 +697,7 @@ def two_hot_encode(x: float):
         }
 
         function process_article() {
-          var oid_likes = "likes_napkins\/TwoHotEncoding.md"
+          var oid_likes = "likes_napkins\/FasterThanTime.md"
           var id_likes = oid_likes ? oid_likes.replaceAll("/", "-") : oid_likes
           if (!liked_article) {
             like_article(id_likes)
@@ -841,30 +839,30 @@ def two_hot_encode(x: float):
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group" href="/napkins/tripartitereasoning/">
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
+        </span>
+        <span>
+          
+            <a class="flex text-right group" href="/napkins/autoencodersthink/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >A Tripartite Framework of Reasoning</span
+                  >Autoencoders are Thought Machines</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-04-02 18:00:41 -0600 -0600">2 April 2023</time>
+                    <time datetime="2022-06-08 00:00:00 &#43;0000 UTC">8 June 2022</time>
                   
                 </span>
               </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
             </a>
-          
-        </span>
-        <span>
           
         </span>
       </div>

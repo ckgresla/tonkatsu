@@ -185,4 +185,12 @@
           </url>
     
   
+    
+      <url>
+            <loc>https://tonkatsu.io/napkins/fasterthantime/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
 </urlset>
