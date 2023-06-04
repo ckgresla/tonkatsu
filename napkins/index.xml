@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>[♥](https://tonkatsu.io)</copyright>
-    <lastBuildDate>Fri, 14 Apr 2023 11:00:41 -0600</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jun 2023 11:00:41 -0600</lastBuildDate><atom:link href="https://tonkatsu.io/napkins/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Waiting 10 Seconds in 1</title>
+      <link>https://tonkatsu.io/napkins/fasterthantime/</link>
+      <pubDate>Sat, 03 Jun 2023 11:00:41 -0600</pubDate>
+      
+      <guid>https://tonkatsu.io/napkins/fasterthantime/</guid>
+      <description>The journey of the programmer is one of ever-humbling discovery. Along this lovely trek you will experience a multitude of paradigm shifts, each of which shattering your prior conception of programming and making you a more effective programmer.</description>
+    </item>
+    
     <item>
       <title>Two Hot Encodings</title>
       <link>https://tonkatsu.io/napkins/twohotencoding/</link>
@@ -113,15 +122,6 @@ If specificity in specifications or a keyboard enthusiast-esque review is more y
       <guid>https://tonkatsu.io/napkins/autoencodersthink/</guid>
       <description>​
 Intelligence might be thought of as the ability to compress information. Learning then is being able to find useful compressions of larger concepts that can be queried or accessed in an efficent way.</description>
-    </item>
-    
-    <item>
-      <title>Waiting 10 Seconds in 1</title>
-      <link>https://tonkatsu.io/napkins/fasterthantime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tonkatsu.io/napkins/fasterthantime/</guid>
-      <description>The journey of the programmer is one of ever-humbling discovery. Along this lovely trek you will experience a multitude of paradigm shifts, each of which shattering your prior conception of programming and making you a more effective programmer.</description>
     </item>
     
   </channel>
