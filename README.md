@@ -2,7 +2,7 @@
 # Internet Land Ownership
 I used to be at: https://ckgresla.github.io
 
-Now I am at: https://tonkatsu.io/ <-- best dish in the Universe
+Now I am at: https://tonkatsu.io/
 
 
 ## Useful Links
